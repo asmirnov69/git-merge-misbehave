@@ -6,4 +6,4 @@ if __name__ == "__main__":
     speed = 1 # m/s
     print("travel distance:", distance)
     print("travel speed:", speed)
-    print("travel time:", get_travel_time_ms(distance, speed), " ms")
+    print("travel time:", get_travel_time_ms(distance, speed) * 100.0, " ms") # temp fix applied
